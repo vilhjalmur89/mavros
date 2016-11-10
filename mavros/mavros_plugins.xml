@@ -59,6 +59,9 @@
 	<class name="actuator_control" type="mavros::std_plugins::ActuatorControlPlugin" base_class_type="mavros::plugin::PluginBase">
 		<description>Send direct controls values to the actuators</description>
 	</class>
+	<class name="avoidance_triplet" type="mavros::std_plugins::AvoidanceTripletPlugin" base_class_type="mavros::plugin::PluginBase">
+		<description>Receives Avoidance-Triplets </description>
+	</class>
 	<class name="manual_control" type="mavros::std_plugins::ManualControlPlugin" base_class_type="mavros::plugin::PluginBase">
 		<description>Publish manual control values</description>
 	</class>

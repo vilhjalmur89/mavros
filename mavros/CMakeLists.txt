@@ -120,6 +120,7 @@ add_library(mavros_plugins
   src/plugins/vfr_hud.cpp
   src/plugins/ftp.cpp
   src/plugins/actuator_control.cpp
+  src/plugins/avoidance_triplet.cpp
   src/plugins/manual_control.cpp
   src/plugins/altitude.cpp
   src/plugins/hil_controls.cpp
